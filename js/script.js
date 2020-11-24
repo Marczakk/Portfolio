@@ -1,3 +1,6 @@
+AOS.init();
+
+
 $(function() {
       menu = $('nav ul');
 
