@@ -70,6 +70,7 @@ button {
       font-weight: bold;
       font-size: 20px;
       width: 210px;
+      border-radius: 1000px;
 }
 
 button i{
@@ -147,6 +148,7 @@ nav a#toggle-btn {
       nav {
             height: auto;
             border-bottom: 0;
+            z-index: 1000;
 
       }
 
@@ -165,7 +167,7 @@ nav a#toggle-btn {
             text-align: left;
             width: 100%;
             text-indent: 25px;
-            background: black;
+            /* background: black; */
             color: #8D8273;
       }
 
@@ -181,7 +183,7 @@ nav a#toggle-btn {
             display: inline-block;
             position: absolute;
             right: 5px;
-            top: 20px;
+            top: 25px;
       }
 
       nav a#toggle-btn {
@@ -203,6 +205,8 @@ nav a#toggle-btn {
 
       .menu {
             zoom: 1;
+            z-index: 1000;
+            /* position: absolute; */
       }
 }
 
@@ -352,6 +356,9 @@ nav a#toggle-btn {
 }
 
 @media screen and (min-width: 580px) {
+
+      
+
       .overview-content button{
             width : 200px;
             height: 70px;
@@ -362,6 +369,8 @@ nav a#toggle-btn {
       .overview-content p{
            font-size: 20px;
       }
+
+
 }
 
 
@@ -562,4 +571,109 @@ footer {
 footer span {
     color: #8D8273;
     font-weight: 600;
+}
+
+
+@media screen and (max-width: 580px){
+
+
+
+
+      #toggle-btn{
+            position: relative;
+            top: 15px;
+      }
+
+      .describe .container h1{
+            position: relative;
+            top: 100px;
+            font-size: 42px;
+      }
+
+
+      .describe .container h4{
+            position: relative;
+            font-size: 37px;
+            top: 100px;
+      }
+
+
+      .section-hero .container h2{
+            margin-top: 100px;
+            font-size: 30px;
+      }
+
+      .section-hero .container h3{
+            font-size: 20px;
+      }
+
+      .section-hero .container p{
+            font-size: 12px;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 100px;
+      }
+
+
+      .section .container h1{
+            font-size: 45px;
+            margin-bottom: 40px;
+      }
+
+
+      .overview-content{
+            margin-bottom: 100px;
+            margin-top: 100px;
+      }
+
+      .overview-content h2{
+            font-size: 35px;
+      }
+
+      .overview-content h3{
+            font-size: 25px;
+      }
+
+      .break{
+            position: relative;
+            top: 30px;
+      }
+
+      .break2{
+            position: relative;
+            bottom: 50px;
+      }
+
+      .box img{
+            height: 110px;
+            width: 110px;
+      }
+
+      .box .react{
+            width: auto;
+      }
+
+      .box .php{
+            width: auto;
+      }
+
+      .conti{
+            font-size: 36px;
+      }
+
+      .contact a{
+            font-size: 25px;
+            position: relative;
+            bottom: 7px;
+      }
+
+      .fa-envelope{
+            position: relative;
+            top: 3px;
+      }
+
+      footer{
+            padding: 50px 0;
+      }
+
 }
