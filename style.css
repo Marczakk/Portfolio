@@ -18,6 +18,11 @@
       }
 }
 
+.wrapper{
+      max-width: 1200px;
+      overflow-x: hidden;
+}
+
 h1, h2, h3 {
       font-weight: 300;
       margin-top: 0px;
