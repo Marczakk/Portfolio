@@ -19,7 +19,7 @@
 }
 
 .wrapper{
-      max-width: 1200px;
+      max-width: 100vw;
       overflow-x: hidden;
 }
 
@@ -103,6 +103,8 @@ nav {
       background-color: #1a1a1a;
       position: fixed;
       margin-top: -24px;
+
+      z-index: 10000;
 }
 
 nav ul {
